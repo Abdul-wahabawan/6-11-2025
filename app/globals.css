@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #DAD6C9;
+    --foreground: #DAD6C9;
+  }
+}
+
+body {
+  background: #DAD6C9;
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+  @keyframes scroll {
+          0% {
+            transform: translateX(5%);
+          }
+          100% {
+            transform: translateX(-20%);
+          }
+        }
+
+        .animate-scroll {
+          animation: scroll 40s linear infinite;
+        }
+
+        /* global styles or custom Tailwind utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
