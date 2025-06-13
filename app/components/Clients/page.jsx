@@ -33,7 +33,7 @@ export default function Clients() {
           {/* Card 2 */}
           <div className="bg-white shadow-md rounded-2xl p-6 min-w-[300px] max-w-sm text-lg">
             <p className="text-[#81807f] mb-4">
-      I've been using Advisora for years now, and I can't imagine managing my finances without it. From tracking expenses to creating budgets, Advisora has simplified every aspect of my financial life. Thank you for such an amazing platform!            </p>
+            I've been using Advisora for years now, and I can't imagine managing my finances without it. From tracking expenses to creating budgets, Advisora has simplified every aspect of my financial life. Thank you for such an amazing platform!            </p>
             <div className="flex items-center gap-4">
               <img className="w-10 h-10 rounded-full" src="https://cdn.prod.website-files.com/67721265f59069a5268af325/67785a39ab3a84e8587a7acd_testimonials%20user%202.webp" alt="William Parker" />
               <div>
@@ -47,7 +47,7 @@ export default function Clients() {
           <div className="bg-white shadow-md rounded-2xl p-6 min-w-[300px] max-w-sm text-lg">
             <p className="text-[#81807f] mb-4">
               Advisora has been a game-changer for our business. With its comprehensive financial management tools, we've been able to streamline our processes and make more informed decisions. The customer support team is also top-notch
-                </p>
+           </p>
             <div className="flex items-center gap-4">
               <img className="w-10 h-10 rounded-full" src="https://cdn.prod.website-files.com/67721265f59069a5268af325/67785a3937e2049e3aa1ef9a_testimonials%20user%203.webp" alt="John Spencer" />
               <div>

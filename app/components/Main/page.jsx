@@ -2,19 +2,18 @@ export default function Main() {
   return (
     <>
       <div className="bg-[#efeeeb] m-5 rounded-2xl">
-  <title>Responsive Blog Section</title>
-  <section className="px-6 py-12 max-w-7xl mx-auto">
-    <div className="flex flex-col md:flex-row justify-between px-16 items-start md:items-center mb-10">
-      <div>
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
-          Discover the <br/>latest blogs
-        </h2>
-      </div>
-      <p className="text-gray-500 max-w-md mt-4 md:mt-0 md:ml-6">
-        Stay informed with the latest health and wellness insights from our
-        experts.
-      </p>
-    </div>
+      <section className="px-6 py-12 max-w-7xl mx-auto">
+        <div className="flex flex-col md:flex-row justify-between lg:px-16 items-start md:items-center mb-10">
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold mb-2">
+              Discover the <br/>latest blogs
+            </h2>
+          </div>
+          <p className="text-gray-500 max-w-md mt-4 md:mt-0 md:ml-6">
+            Stay informed with the latest health and wellness insights from our
+            experts.
+          </p>
+        </div>
     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       {/* Card 1 */}
       <div className=" rounded-2xl overflow-hidden">
@@ -69,11 +68,16 @@ export default function Main() {
         </div>
       </div>
     </div>
-    <div className="flex justify-center">
-      <button className="bg-[#FB4D17] text-white font-semibold px-6 py-3 rounded-full hover:bg-orange-600 transition">
-        See More →
-      </button>
-    </div>
+       <div className="mt-10 text-center">
+          <button className="relative group px-19 py-6 bg-[#f9f8f7] text-white text-lg rounded-3xl overflow-hidden border border-gray-300 hover:bg-gray-100 transition-all duration-300">
+            <span className="absolute bg-[#ff4d00] inset-0 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">
+              See More →
+            </span>
+            <span className="absolute bg-[#ff4d00] inset-0 flex items-center justify-center translate-y-full transition-transform duration-300 group-hover:translate-y-0">
+              See More →
+            </span>
+          </button>
+      </div>
   </section>
 </div>
 
